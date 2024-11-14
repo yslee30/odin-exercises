@@ -1,12 +1,14 @@
-#first {
-    background-color: black;
-}
-
-#second {
-    background-color: yellow;
-}
-
-.font-adjust {
+.inverted, 
+.yellow {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.inverted {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
 }
